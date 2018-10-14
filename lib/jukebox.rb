@@ -38,6 +38,7 @@ end
 def run(songs)
   help
   puts "Please enter a command"
+  loop do
   resp=gets.chomp
   case resp
     when help 
@@ -48,4 +49,3 @@ def run(songs)
       play
     when exit
       exit_jukebox
-       if resp!="exit"
