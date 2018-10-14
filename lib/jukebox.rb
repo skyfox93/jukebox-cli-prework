@@ -45,7 +45,6 @@ def run(songs)
     puts "Please enter a command"
 
     resp=gets.chomp
-    binding.pry
     if resp.length<1
       break
     else
