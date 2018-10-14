@@ -42,6 +42,7 @@ def run(songs)
 
   help
   loop do
+    
     puts "Please enter a command:"
 
     resp=gets.chomp
