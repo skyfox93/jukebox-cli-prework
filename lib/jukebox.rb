@@ -40,7 +40,7 @@ end
 
 def run(songs)
 
-  #help
+  help
   loop do
     puts "Please enter a command:"
 
