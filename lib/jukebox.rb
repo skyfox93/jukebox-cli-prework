@@ -32,24 +32,24 @@ def play(songs)
 end
 end
 def exit_jukebox
-  puts "Goodbye"
+  puts "Goodbye!"
 end
 
 def run(songs)
   help
   loop do
-  puts "Please enter a command"
-  resp=gets.chomp
-  case resp
-    when help 
-      help
-    when list
-      list(songs)
-    when play
-      play(songs)
-    when exit
-     exit_jukebox
+    puts "Please enter a command"
+    resp=gets.chomp
+    case resp
+      when help 
+        help
+      when list
+        list(songs)
+      when play
+        play(songs)
+      when exit
+       exit_jukebox
      break
+    end
   end
-end
 end
