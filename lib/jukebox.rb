@@ -48,4 +48,4 @@ def run(songs)
       play
     when exit
       exit_jukebox
-      
+       if resp!="exit"
