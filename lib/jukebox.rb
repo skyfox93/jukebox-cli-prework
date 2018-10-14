@@ -42,7 +42,7 @@ def run(songs)
 
   #help
   loop do
-    puts "Please enter a command"
+    puts "Please enter a command:"
 
     resp=gets.chomp
     if resp.length<1
