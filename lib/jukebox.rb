@@ -27,7 +27,6 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   resp=gets.chomp
-  binding.pry
  if resp.to_i==0 && songs[resp.to_i]
    puts "Playing #{songs[(resp.to_i)]}"
   elsif songs.include?(resp)
