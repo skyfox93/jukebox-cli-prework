@@ -39,7 +39,6 @@ def run(songs)
   help
   puts "Please enter a command"
   resp=gets.chomp
-  if resp!="exit"
   case resp
     when help 
       help
@@ -49,3 +48,4 @@ def run(songs)
       play
     when exit
       exit_jukebox
+      
