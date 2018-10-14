@@ -46,7 +46,9 @@ def run(songs)
 
     resp=gets.chomp
     binding.pry
-    if resp.length1
+    if resp.length<1
+      break
+    else
       case resp
         when "help" 
           help
