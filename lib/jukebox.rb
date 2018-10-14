@@ -43,9 +43,9 @@ puts "Please enter a command"
 
   #help
   loop do
-    if 
     puts "Please enter a command"
     resp=gets.chomp
+    if resp
     case resp
       when "help" 
         help
@@ -57,5 +57,7 @@ puts "Please enter a command"
        exit_jukebox
      break
     end
+  end
+else help
   end
 end
