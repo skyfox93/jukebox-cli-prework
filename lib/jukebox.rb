@@ -39,4 +39,5 @@ def run(songs)
   help
   puts "Please enter a command"
   resp=gets.chomp
-  if resp==
+  case resp
+  
