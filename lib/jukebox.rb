@@ -40,4 +40,4 @@ def run(songs)
   puts "Please enter a command"
   resp=gets.chomp
   case resp
-  
+    when help 
