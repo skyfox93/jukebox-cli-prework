@@ -31,3 +31,10 @@ def play(songs)
   else puts "Invalid input, please try again"
 end
 end
+def exit_jukebox
+  puts "Goodbye"
+end
+
+def run(songs)
+  help
+  puts "Please enter a command"
