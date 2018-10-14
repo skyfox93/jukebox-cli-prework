@@ -57,7 +57,7 @@ puts "Please enter a command"
        exit_jukebox
      break
     end
-  end
 else help
+end
   end
 end
