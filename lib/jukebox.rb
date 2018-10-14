@@ -43,6 +43,7 @@ puts "Please enter a command"
 
   #help
   loop do
+    
     resp=gets.chomp
     if resp
     case resp
