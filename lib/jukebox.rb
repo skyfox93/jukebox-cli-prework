@@ -41,13 +41,13 @@ def run(songs)
     puts "Please enter a command"
     resp=gets.chomp
     case resp
-      when help 
+      when "help" 
         help
-      when list
+      when "list"
         list(songs)
-      when play
+      when "play"
         play(songs)
-      when exit
+      when "exit"
        exit_jukebox
      break
     end
